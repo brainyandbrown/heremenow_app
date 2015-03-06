@@ -1,0 +1,17 @@
+<h2>View Sample Playlist for:</h2></br>
+<div class='sample'>
+  <p><a href='/locations/new_york'>New York, NY</a></p>
+  <p><a href='/locations/los_angeles'>Los Angeles, CA</a></p>
+  <p><a href='/locations/miami'>Miami, FL</a></p>
+  <p><a href='/locations/seattle'>Seattle, WA</a></p>
+</div>
+
+<% @artist_city.each do |city| %>
+  <%= city.first %>
+<% end %>
+
+<%#= @artists.each do |artist| %>
+  <%#= @artist_city.name %>
+<%# end %>
+<h4><a href='/'>Return to Homepage</h4>
+
