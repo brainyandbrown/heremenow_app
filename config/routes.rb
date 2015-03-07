@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
-  # get '/login' => 'welcome#login' (might not need)
+  get '/login' => 'welcome#login' #(might not need)
   get '/locations' => 'locations#index'
   get '/locations/:id' => 'locations#show'
   get '/spotify/search' => 'spotify#search'

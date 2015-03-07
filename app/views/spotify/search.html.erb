@@ -1,14 +1,14 @@
-<h2>Random Playlist for <%= @artist_city.capitalize %></h2>
+<h2 class='playlist'>Random Playlist for <%= @artist_city.capitalize %></h2>
 
-<!-- <a href='spotify:artist:0C8ZW7ezQVs4URX5aX7Kqx'>Play Me!</a> -->
-
-<ul>
-<% @songs.each do |song| %>
-  <li>
-    <a href="<%= song[:song] %>"><%=song[:artist]%></a>
-  </li>
-<% end %>
+<ul class='list'>
+  <% @songs.each do |song| %>
+    <li>
+      <a href="<%= song[:song] %>"><%= song[:artist] %></a>
+      <!-- <%#= song[:artist] %>: <a href="<%#= song[:song] %>"><%#= song[:song] %></a> -->
+    </li>
+  <% end %>
+</ul>
 
 <a href='/'>Return To Home Page</a></br>
 <a href="/locations">Return To Search Page</a>
-</ul>
+

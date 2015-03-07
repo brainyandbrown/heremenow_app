@@ -12,6 +12,14 @@ class SpotifyController < ApplicationController
       @songs << { artist: artist['name'], song: SpotifyApi.songs(artist) }
     end
     @songs
+
+    # @song_title = params[:title]
+    # @songs = SpotifyApi.songs(@artist_name)
+    # @titles = []
+    # @songs.each do |song|
+    #   @titles << { song: song['title'], title: SpotifyApi.titles(song) }
+    # end
+    # @titles
   end
 
   # def search
