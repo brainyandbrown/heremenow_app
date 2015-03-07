@@ -3,20 +3,12 @@
 <!-- <a href='spotify:artist:0C8ZW7ezQVs4URX5aX7Kqx'>Play Me!</a> -->
 
 <ul>
-<% @artists.each do |artist| %>
+<% @songs.each do |song| %>
   <li>
-    <%= link_to artist['name'], "spotify:artist:0C8ZW7ezQVs4URX5aX7Kqx" %>
+    <a href="<%= song[:song] %>"><%=song[:artist]%></a>
   </li>
 <% end %>
 
-<%# @sample.each do |sample| %>
-  <li><%= @sample %>
-  </li>
-<% end %>
-
-<!-- spotify:artist:#{songs_array[0]['artist_foreign_ids'][0]['foreign_id']} -->
-
-<%# @songs.each do |song| %>
-  <%#= song['title'] %>
-<%# end %>
+<a href='/'>Return To Home Page</a></br>
+<a href="/locations">Return To Search Page</a>
 </ul>

@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   # def user
-  #   @user ||= User.find(session[:user_id]) is session[:user_id]
+  #   @user ||= User.find(session[:user_id]) if session[:user_id]
   # end
 
   # helper_method(:user)
@@ -14,3 +14,4 @@ class ApplicationController < ActionController::Base
   # end
 
 end
+
