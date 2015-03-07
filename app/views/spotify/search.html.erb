@@ -1,0 +1,22 @@
+<h2>Random Playlist for <%= @artist_city.capitalize %></h2>
+
+<!-- <a href='spotify:artist:0C8ZW7ezQVs4URX5aX7Kqx'>Play Me!</a> -->
+
+<ul>
+<% @artists.each do |artist| %>
+  <li>
+    <%= link_to artist['name'], "spotify:artist:0C8ZW7ezQVs4URX5aX7Kqx" %>
+  </li>
+<% end %>
+
+<%# @sample.each do |sample| %>
+  <li><%= @sample %>
+  </li>
+<% end %>
+
+<!-- spotify:artist:#{songs_array[0]['artist_foreign_ids'][0]['foreign_id']} -->
+
+<%# @songs.each do |song| %>
+  <%#= song['title'] %>
+<%# end %>
+</ul>

@@ -1,9 +1,9 @@
-User.destroy_all
+# User.destroy_all
 Location.destroy_all
-Artist.destroy_all
-Song.destroy_all
+# Artist.destroy_all
+# Song.destroy_all
 
-users = User.create([])
+# users = User.create([])
 locations = Location.create([
   {city: 'new york'},
   {city: 'los angeles'},

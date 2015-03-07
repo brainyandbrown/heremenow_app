@@ -1,17 +1,17 @@
-<h2>View Sample Playlist for:</h2></br>
+<h2>Select Your Location:</h2></br>
 <div class='sample'>
-  <p><a href='/locations/new_york'>New York, NY</a></p>
-  <p><a href='/locations/los_angeles'>Los Angeles, CA</a></p>
-  <p><a href='/locations/miami'>Miami, FL</a></p>
-  <p><a href='/locations/seattle'>Seattle, WA</a></p>
+
+  <%= form_tag '/spotify/search', :method => :get do %>
+    <p><%= text_field_tag(:user_city, nil, {placeholder: "Location (ex. New York, Lincoln, San Antonio):"}) %>
+      <%= submit_tag 'Search' %>
+    </p>
+  <% end %>
 </div>
 
-<% @artist_city.each do |city| %>
-  <%= city.first %>
-<% end %>
 
-<%#= @artists.each do |artist| %>
-  <%#= @artist_city.name %>
+
+<%# @artist_city.each do |city| %>
+  <%#= city.first %>
 <%# end %>
 <h4><a href='/'>Return to Homepage</h4>
 
