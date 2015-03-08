@@ -8,17 +8,6 @@
   <% end %>
 </ul>
 
-<% @songs.each do |song| %>
-  <audio id="music" preload="true">
-    <source src="<%= song[:song] %>">
-      <source src="<%= song[:song] %>">
-  </audio>
-  <div id="audioplayer">
-    <button id="pButton" class="play" onclick="play()"></button>
-  <div id="timeline">
-    <div id="playhead"></div>
-<% end %>
-
 <div class='menu'>
   <a href='/'>Return To Home Page</a></br>
   <a href="/locations">Return To Search Page</a>
