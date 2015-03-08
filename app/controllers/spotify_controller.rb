@@ -6,8 +6,6 @@ class SpotifyController < ApplicationController
     @artist_city = params[:user_city]
     @artists = SpotifyApi.artists_by_city(@artist_city)
     @songs = []
-    # binding.pry
-    # binding.pry
     @artists.each do |artist|
       @songs << { artist: artist['name'], song: SpotifyApi.songs(artist) }
     end
@@ -17,15 +15,10 @@ class SpotifyController < ApplicationController
     # @songs = SpotifyApi.songs(@artist_name)
     # @titles = []
     # @songs.each do |song|
-    #   @titles << { song: song['title'], title: SpotifyApi.titles(song) }
+    #   @titles << { song: title['title'], title: SpotifyApi.titles(title) }
     # end
     # @titles
   end
-
-  # def search
-  #   @artist_name = params[:artist]
-  #   @sample = SpotifyApi.songs(@artist_name)
-  # end
 
 
 end

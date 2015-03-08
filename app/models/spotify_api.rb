@@ -13,8 +13,6 @@ module SpotifyApi
     artists_array
   end
 
-# +country:united+states
-
   def self.songs(artist_name)
     artist = URI.encode(artist_name['name'])
     url = "http://developer.echonest.com/api/v4/playlist/static?api_key=THOW2AWRJXHODNK2Y&format=json&results=10&artist=#{artist}&bucket=id:spotify&bucket=tracks&limit=true"
@@ -22,8 +20,6 @@ module SpotifyApi
     JSON.parse(response.body)['Search']
     songs_array = response['response']['songs']
     sample = songs_array.sample['tracks'].sample['foreign_id']
-
-    # binding.pry
     puts sample
     sample
 
@@ -35,7 +31,6 @@ module SpotifyApi
     response = HTTParty.get(url)['Search']
     titles_array = response['response']['title']
     sample_title = titles_array.sample['title']
-binding.pry
     puts sample_title
     sample_title
 

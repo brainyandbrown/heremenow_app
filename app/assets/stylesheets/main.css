@@ -1,3 +1,55 @@
 #map {
   height: 180px;
 }
+
+body {
+  /*background-image: url('http://ak3.picdn.net/shutterstock/videos/912673/preview/stock-footage-music-world-with-headphones-and-equalizer-equalizer-hd-d-animation-music-world-earth.jpg');*/
+  /*background-repeat: no-repeat;*/
+  background: url("http://ak3.picdn.net/shutterstock/videos/912673/preview/stock-footage-music-world-with-headphones-and-equalizer-equalizer-hd-d-animation-music-world-earth.jpg") no-repeat;
+  background-size: 1450px;
+  /*fo*/
+  color: #ffffff;
+}
+
+/*.title {
+
+}*/
+
+#audioplayer{
+    width: 480px;
+    height: 60px;
+    margin: 50px auto auto auto;
+border: solid;
+}
+
+#pButton{
+    height:60px;
+    width: 60px;
+    border: none;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+    outline:none;
+    background: rgba(0, 255, 0,.5)
+}
+
+.play{background: url('http://www.alexkatz.me/codepen/images/play.png') ;}
+.pause{background: url('http://www.alexkatz.me/codepen/images/pause.png') ;}
+
+#timeline{
+    width: 400px;
+    height: 20px;
+    margin-top: 20px;
+    float: left;
+    border-radius: 15px;
+    background: rgba(255,0,255,.7);
+}
+
+#playhead{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-top: 1px;
+    background: rgba(0, 0, 0,.7);
+}

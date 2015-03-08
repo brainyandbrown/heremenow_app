@@ -11,7 +11,9 @@ Rails.application.routes.draw do
   get '/locations' => 'locations#index'
   get '/locations/:id' => 'locations#show'
   get '/spotify/search' => 'spotify#search'
+
   resources :locations
+  resources :spotify
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
   # get '/locations/:id/playlist' => 'spotify#playlist'
