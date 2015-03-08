@@ -1,16 +1,44 @@
-#map {
+/*#map {
   height: 180px;
-}
+}*/
 
 body {
-  /*background-image: url('http://ak3.picdn.net/shutterstock/videos/912673/preview/stock-footage-music-world-with-headphones-and-equalizer-equalizer-hd-d-animation-music-world-earth.jpg');*/
-  /*background-repeat: no-repeat;*/
+  /*margin: 0 auto;*/
   background: url("http://ak3.picdn.net/shutterstock/videos/912673/preview/stock-footage-music-world-with-headphones-and-equalizer-equalizer-hd-d-animation-music-world-earth.jpg") no-repeat;
-  background-size: 1450px;
-  /*fo*/
+  background-size: cover;
+  position: absolute;
   color: #ffffff;
+  max-width: 600px;
 }
 
-/*.title {
+.title {
+  font-size: 75px;
+  text-align: center;
+}
 
-}*/
+@media (max-width: 500px) {
+  body {
+    background: red;
+    h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    line-height: 24px;
+    font-size: 20px;
+  }
+  small {
+    font-size: 16px;
+  }
+  }
+
+
+}
