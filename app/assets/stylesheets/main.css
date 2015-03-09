@@ -34,7 +34,8 @@ body {
 @media (max-width: 500px) {
   body {
     background: red;
-    h1 {
+  }
+  h1 {
     font-size: 50px;
     margin-top: 20px;
     line-height: 40px;
@@ -53,4 +54,13 @@ body {
   small {
     font-size: 16px;
   }
+}
+
+
+legend.white-text {
+  color: white;
+}
+
+input[type=email] {
+  color: black;
 }
