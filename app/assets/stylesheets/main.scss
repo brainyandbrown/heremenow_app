@@ -67,10 +67,10 @@ input[type=text] {
 /*css for mobile browser*/
 @media (max-width: 500px) {
   body {
-    background-image: url('ka_oops_face.png');
+    background-image: image-url("ka_oops_face.png");
     position: fixed;
   }
-  h1, div, legend, input, .title {
+  h1, div, legend, input, .title, .playlist, .list, .menu {
 /*    font-size: 50px;
     margin-top: 20px;
     line-height: 40px;*/

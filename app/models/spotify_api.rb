@@ -9,7 +9,7 @@ module SpotifyApi
     response = HTTParty.get(url)
     JSON.parse(response.body)['Search']
     artists_array = response['response']['artists']
-    puts artists_array
+    puts artists_array.sample
     artists_array
   end
 
