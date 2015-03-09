@@ -1,16 +1,16 @@
-<h2>Select Your Location:</h2></br>
 <div class='sample'>
+<h2>Select Your Location:</h2></br>
 
   <%= form_tag '/spotify/search', :method => :get do %>
     <p><%= text_field_tag(:user_city, nil, {placeholder: "Location (ex. New York, Lincoln, San Antonio):"}) %>
       <%= submit_tag 'Search', class: "pure-button pure-button-primary" %>
     </p>
   <% end %>
-</div>
 </br>
 </br>
 </br>
 <a href='/' class='pure-button'>Return to Homepage</a>
+</div>
 
 
 <%# @artist_city.each do |city| %>
