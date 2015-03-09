@@ -3,17 +3,19 @@
 
   <%= form_tag '/spotify/search', :method => :get do %>
     <p><%= text_field_tag(:user_city, nil, {placeholder: "Location (ex. New York, Lincoln, San Antonio):"}) %>
-      <%= submit_tag 'Search' %>
+      <%= submit_tag 'Search', class: "pure-button pure-button-primary" %>
     </p>
   <% end %>
 </div>
-
+</br>
+</br>
+</br>
+<a href='/' class='pure-button'>Return to Homepage</a>
 
 
 <%# @artist_city.each do |city| %>
   <%#= city.first %>
 <%# end %>
-<h4><a href='/'>Return to Homepage</h4>
 
 <!-- <p id="notice"><%#= notice %></p>
 
