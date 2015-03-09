@@ -68,6 +68,7 @@ input[type=text] {
 @media (max-width: 500px) {
   body {
     background-image: url('ka_oops_face.png');
+    position: fixed;
   }
   h1, div, legend, input, .title {
 /*    font-size: 50px;
