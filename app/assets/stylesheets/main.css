@@ -11,9 +11,13 @@ body {
   max-width: 600px;
 }
 
-.page {
+div {
   border-color: pink;
   display: inline-block;
+  position: center;
+  width: 700px ;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title {
