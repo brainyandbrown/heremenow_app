@@ -51,7 +51,7 @@ group :development, :test do
   gem 'geocoder'
 
   gem 'sassy-buttons'
-
+  gem 'puma'
 end
 
 
