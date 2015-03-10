@@ -54,5 +54,6 @@ group :development, :test do
   gem 'puma'
 end
 
+gem "rspec", "~> 2.13"
 
 gem 'mocha', group: :test
