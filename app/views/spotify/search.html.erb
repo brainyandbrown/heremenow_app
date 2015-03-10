@@ -1,17 +1,20 @@
 <div class='page'>
 
-  <h1 class='title'>HereMeNow</h1></br>
+  <header class="header"><h1 class='title'>HereMeNow</h1></header></br>
 
   <h2 class='playlist'>Random Playlist for <%= @artist_city.upcase %></h2>
 
-  <ul class='list'>
+  <ul class='flex-container'>
     <% @songs.each do |song| %>
-      <li>
+      <li class='flex-item'>
         <a href="<%= song[:song] %>"><%= song[:artist] %></a>
       </li>
     <% end %>
   </ul>
 
+</br>
+</br>
+</br>
   <div class='menu'>
     <a href="/locations" class="pure-button">Return To Search Page</a>
     <a href='/' class="pure-button">Return To Home Page</a></br>

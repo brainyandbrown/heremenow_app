@@ -1,6 +1,6 @@
 <div class='page'>
 
-  <h1 class='title'>HereMeNow</h1></br>
+  <header class="header"><h1 class='title'>HereMeNow</h1></header></br>
 
   <h3 class='description'>"HereMeNow" is an app made for the die-hard musical fan. Visiting a different city? With "HereMeNow", you can plug in your location and receive an awesome playlist based on local artists!
   </h3>
@@ -18,14 +18,13 @@
 
   <%= form_tag "#", class: "pure-form" do %>
     <fieldset>
-      <legend class="white-text">Sign up below to recieve updates and information about HereMeNow!</legend>
+      <legend class="white-text">Sign up below to receive updates and information about HereMeNow!</legend>
       <%= label_tag :email %>
       <%= email_field_tag :email %>
       <%= submit_tag "Sign up for our list!", class: "pure-button pure-button-primary" %>
     </fieldset>
   <% end %>
 
-  <%#= button_to 'Select Your Current Location', '/locations'%>
+<%= javascript_include_tag "email-sign-up" %>
 </div>
 
-<%= javascript_include_tag "email-sign-up" %>

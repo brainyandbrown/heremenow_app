@@ -6,6 +6,7 @@ body {
   /*margin: 0 auto;*/
   background: url("http://ak3.picdn.net/shutterstock/videos/912673/preview/stock-footage-music-world-with-headphones-and-equalizer-equalizer-hd-d-animation-music-world-earth.jpg") no-repeat;
   background-size: cover;
+  background-color: #000000;
   position: relative;
   color: #ffffff;
   max-width: 600px;
@@ -15,7 +16,7 @@ div {
   border-color: pink;
   display: inline-block;
   position: fixed;
-  width: 700px ;
+  width: 400px ;
   margin-left: auto;
   margin-right: auto;
 }
@@ -24,28 +25,33 @@ div {
   font-size: 75px;
   /*text-align: center;*/
   /*font-style: c*/
-  width: 700px ;
+  width: 400px ;
   margin-left: 65%;
   margin-right: auto;
 }
 
+.playlist {
+  width: 400px ;
+  margin-left: 50%;
+  margin-right: auto;
+}
 .description {
   font-size: 35px;
   /*text-align: center;*/
-  width: 700px ;
+  width: 400px ;
   margin-left: 50%;
   margin-right: auto;
 }
 
 .beta {
   color: #44cc22;
-  width: 700px ;
+  width: 400px ;
   margin-left: 50%;
   margin-right: auto;
 }
 
 .sample {
-  width: 700px ;
+  width: 400px ;
   margin-left: 43%;
   margin-right: 55%;
   margin-top: 15%;
@@ -64,11 +70,65 @@ input[type=text] {
   color: black;
 }
 
+.pure-button {
+  background-color: #FF0066;
+}
+
+/* unvisited link */
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: #000000;
+  opacity: 0.3;
+  padding: 15px;
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+
+  line-height: 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
 /*css for mobile browser*/
 @media (max-width: 500px) {
   body {
     background-image: image-url("ka_oops_face.png");
-
+    background-color: lightgray;
     position: fixed;
   }
   h1, div, legend, input, .title, .playlist, .list, .menu {
