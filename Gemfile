@@ -48,12 +48,10 @@ group :development, :test do
   gem 'nifty-generators'
   gem 'sqlite3'
   gem 'pry-rails'
-  gem 'geocoder'
-
-  gem 'sassy-buttons'
   gem 'puma'
 end
 
 gem "rspec", "~> 2.13"
 
+gem 'geocoder'
 gem 'mocha', group: :test
