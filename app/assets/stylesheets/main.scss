@@ -4,18 +4,20 @@
 
 body {
   /*margin: 0 auto;*/
-  background: url("http://ak3.picdn.net/shutterstock/videos/912673/preview/stock-footage-music-world-with-headphones-and-equalizer-equalizer-hd-d-animation-music-world-earth.jpg") no-repeat;
-  background-size: 100%;
-  position: fixed;
-  color: #ffffff;
+  background-image: url("http://ak3.picdn.net/shutterstock/videos/912673/preview/stock-footage-music-world-with-headphones-and-equalizer-equalizer-hd-d-animation-music-world-earth.jpg") no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  color: #000000;
   max-width: 600px;
 }
 
 div {
   border-color: pink;
-  /*display: inline-block;*/
+  display: inline-block;
   position: fixed;
-  width: 300px ;
+  width: 700px ;
   margin-left: auto;
   margin-right: auto;
 }
@@ -29,7 +31,7 @@ div {
   margin-right: auto;
 }
 
-.description, .playlist {
+.description {
   font-size: 35px;
   /*text-align: center;*/
   width: 700px ;
@@ -37,24 +39,6 @@ div {
   margin-right: auto;
 }
 
-.list {
-  font-size: 25px;
-  /*text-align: center;*/
-  width: 700px ;
-  margin-left: 50%;
-  margin-right: auto;
-}
-
-.menu {
-  font-size: 15px;
-  /*text-align: center;*/
-  width: 700px ;
-  margin-left: 43%;
-  margin-right: 55%;
-  /*margin-top: 15%;
-  margin-bottom: 50%;*/
-  display: inline-block;
-}
 .beta {
   color: #44cc22;
   width: 700px ;
@@ -86,7 +70,8 @@ input[type=text] {
 @media (max-width: 500px) {
   body {
     background-image: image-url("ka_oops_face.png");
-    position: fixed;
+    /*position: fixed;*/
+    background-repeat: no-repeat;
   }
   h1, div, legend, input, .title, .playlist, .list, .menu {
 /*    font-size: 50px;
