@@ -1,14 +1,20 @@
-<h2 class='playlist'>Random Playlist for <%= @artist_city.capitalize %></h2>
+<div class='page'>
 
-<ul class='list'>
-  <% @songs.each do |song| %>
-    <li>
-      <a href="<%= song[:song] %>"><%= song[:artist] %></a>
-    </li>
-  <% end %>
-</ul>
+  <h1 class='title'>HereMeNow</h1></br>
 
-<div class='menu'>
-  <a href='/' class="pure-button">Return To Home Page</a></br>
-  <a href="/locations" class="pure-button">Return To Search Page</a>
+  <h2 class='playlist'>Random Playlist for <%= @artist_city.capitalize %></h2>
+
+  <ul class='list'>
+    <% @songs.each do |song| %>
+      <li>
+        <a href="<%= song[:song] %>"><%= song[:artist] %></a>
+      </li>
+    <% end %>
+  </ul>
+
+  <div class='menu'>
+    <a href='/' class="pure-button">Return To Home Page</a></br>
+    <a href="/locations" class="pure-button">Return To Search Page</a>
+  </div>
+
 </div>
