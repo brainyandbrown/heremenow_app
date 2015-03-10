@@ -17,7 +17,7 @@
 
 * Deployment instructions: <a href='http://heremenow.herokuapp.com'>HereMeNow</a> is currently deployed to a <a href='http://www.heroku.com'>Heroku</a> host server. The app was renamed to the custom domain of <a href='http://heremenow.herokuapp.com'>HereMeNow</a>.
 
-* ...
+* App planning done via <a href='https://trello.com/b/wUZqeg7T/heremenow-app'>Trello</a>.
 
 3/9/15
   Attempted to run Travis CI testing: currently <tt>failing</tt>
