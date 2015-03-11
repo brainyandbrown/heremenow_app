@@ -17,7 +17,7 @@ video {
   z-index: -100;
   background: image_url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
   background-size: cover;
-  transition: 1s opacity;
+  transition: 0.5s opacity;
 }
 .stopfade {
    opacity: .5;
@@ -71,6 +71,7 @@ div {
 
 .title {
   font-size: 75px;
+  text-shadow: 2px 2px #ffffff;
   width: 400px ;
   margin-left: auto;
   margin-right: auto;
@@ -78,11 +79,13 @@ div {
 
 .playlist {
   width: 400px ;
+  text-shadow: 2px 2px #ffffff;
   margin-left: auto;
   margin-right: auto;
 }
 .description {
   font-size: 25px;
+  text-shadow: 2px 2px #ffffff;
   text-align: center;
   width: 400px ;
   margin-left: auto;
@@ -90,7 +93,8 @@ div {
 }
 
 .beta {
-  color: #44cc22;
+  color: #44cc44;
+  text-shadow: 2px 2px #fff;
   width: 400px ;
   margin-left: auto;
   margin-right: auto;
@@ -98,6 +102,7 @@ div {
 
 .sample {
   width: 400px ;
+  text-shadow: 2px 2px #fff;
   margin-left: 43%;
   margin-right: 55%;
   margin-top: 15%;
@@ -117,8 +122,11 @@ input[type=text] {
 }
 
 .pure-button {
-  background-color: #44cc22;
-  color: black;
+  background-color: black;
+  opacity: 0.6;
+  text-shadow: 2px 2px #fff;
+  // text-align: right;
+  // color: black;
   /*display: inline;*/
   /*flex-direction: row;*/
   display: -webkit-flex; /* Safari */
@@ -164,6 +172,7 @@ a:active {
 
 .flex-item {
   background: #000000;
+  text-shadow: 2px 2px #000000;
   opacity: 0.3;
   padding: 25px;
   width: 60px;
