@@ -56,8 +56,8 @@ a:hover{
   div{width:70%;}
 }
 @media screen and (max-device-width: 800px) {
-  html { background: url(//demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed; }
-  #bgvid { display: none; }
+  html { background: url('//demosthenes.info/assets/images/polina.jpg') #000 no-repeat center center fixed; }
+  // bgvid { display: none; }
 }
 // body {
 //   background: image_url("music_earth.jpg") no-repeat;
@@ -185,13 +185,13 @@ a:active {
 }
 
 /*css for mobile browser*/
-@media (max-width: 500px) {
-  body {
-    background-image: image-url("ka_oops_face.png");
-    background-color: lightgray;
-    position: fixed;
-  }
-  h1, div, legend, input, .title, .playlist, .list, .menu {
-    display: none;
-  }
-}
+// @media (max-width: 500px) {
+//   body {
+//     background-image: image-url("ka_oops_face.png");
+//     background-color: lightgray;
+//     position: fixed;
+//   }
+//   h1, div, legend, input, .title, .playlist, .list, .menu {
+//     display: none;
+//   }
+// }
