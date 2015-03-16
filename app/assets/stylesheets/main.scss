@@ -6,6 +6,10 @@ body {
   margin: 0;
   background: #000;
 }
+
+footer a {
+  background:rgba(0,0,0,0);
+}
 video {
   position: fixed;
   right: 0;
@@ -159,7 +163,7 @@ a:active {
   padding: 50;
   margin: 50;
   list-style: none;
-
+  text-shadow: 2px 2px #000000;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
