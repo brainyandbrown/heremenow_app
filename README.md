@@ -1,4 +1,4 @@
-== README
+[![Build Status](https://travis-ci.org/brainyandbrown/heremenow_app.svg?branch=master)](https://travis-ci.org/brainyandbrown/heremenow_app)
 
 <a href='http://heremenow.herokuapp.com'>HereMeNow</a> is an app made for the die-hard musical fan. Visiting a different city? With "HereMeNow", you can plug in your location (a mapping API) and receive an awesome playlist (via Spotify) based on local artists! Don't want to give your location (or mapping services are unavailable in your area)? Never fear! "HereMeNow" will auto-generate a globe-trotting mix of international pop!
 
