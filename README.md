@@ -19,8 +19,3 @@
 
 * App planning done via <a href='https://trello.com/b/wUZqeg7T/heremenow-app'>Trello</a>.
 
-3/9/15
-  Attempted to run Travis CI testing: currently <tt>failing</tt>
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
