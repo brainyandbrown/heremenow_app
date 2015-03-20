@@ -55,3 +55,4 @@ gem "rspec", "~> 2.13"
 
 gem 'geocoder'
 gem 'mocha', group: :test
+gem "rspec-rails", :group => [:development, :test]
