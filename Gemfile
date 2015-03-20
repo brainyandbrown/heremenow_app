@@ -49,6 +49,7 @@ group :development, :test do
   gem 'sqlite3'
   gem 'pry-rails'
   gem 'puma'
+  gem 'capybara-webkit', :group => [:development, :test]
 end
 
 gem "rspec", "~> 2.13"
@@ -56,5 +57,4 @@ gem "rspec", "~> 2.13"
 gem 'geocoder'
 gem 'mocha', group: :test
 gem "rspec-rails", :group => [:development, :test]
-gem 'capybara-webkit'
 gem 'jasmine-rails'
