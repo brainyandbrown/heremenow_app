@@ -2,6 +2,7 @@
 Location.destroy_all
 # Artist.destroy_all
 # Song.destroy_all
+Email.destroy_all
 
 # users = User.create([])
 locations = Location.create([
@@ -9,6 +10,10 @@ locations = Location.create([
   {city: 'los angeles'},
   {city: 'miami'},
   {city: 'seattle'}
+])
+
+emails = Email.create([
+  {address: ''}
 ])
 
 # artists = DissemblyApiHelper.artists
