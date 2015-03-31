@@ -162,6 +162,8 @@ a:active {
 .flex-container {
   padding: 50;
   margin: 50;
+  border-width: 15px;
+  border-color: white;
   list-style: none;
   text-shadow: 2px 2px #000000;
   display: -webkit-box;
@@ -182,12 +184,13 @@ a:active {
   width: 60px;
   height: 50px;
   margin-top: 15px;
-
+  border-width: 10px;
+  border-color: #000000;
   line-height: 15px;
   color: white;
   font-weight: bold;
   font-size: 1em;
-  text-align: center;
+  text-align: left;
   margin-left: auto;
   margin-right: auto;
 }
@@ -196,7 +199,6 @@ a:active {
 @media (max-width: 500px) {
   body {
     background-image: image-url("ka_oops_face.png");
-    background-color: lightgray;
     position: fixed;
   }
   video, h1, div, legend, input, .title, .playlist, .list, .menu {
@@ -204,11 +206,11 @@ a:active {
   }
 }
 
-@media screen and (max-width: 500px) {
-  // div{width:70%;}
-}
-@media screen and (max-device-width: 800px) {
-  video { background: image-url('//demosthenes.info/assets/images/polina.jpg'); }
+// @media screen and (max-width: 500px) {
+//   // div{width:70%;}
+// }
+// @media screen and (max-device-width: 800px) {
+//   video { background: image-url('//demosthenes.info/assets/images/polina.jpg'); }
   // background: image_url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
   // bgvid { display: none; }
-}
+// }
