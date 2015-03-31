@@ -3,7 +3,7 @@
 <a href='http://heremenow.herokuapp.com'>HereMeNow</a> is an app made for the die-hard musical fan. Visiting a different city? With "HereMeNow", you can plug in your location (a mapping API) and receive an awesome playlist (via Spotify) based on local artists! Don't want to give your location (or mapping services are unavailable in your area)? Never fear! "HereMeNow" will auto-generate a globe-trotting mix of international pop!
 
 * System dependencies: <a href='http://heremenow.herokuapp.com'>HereMeNow</a> is based on Rails v.4.2.0 framework. It utilizes the EchoNest API, which parses additional artists' data from the Spotify API. HereMeNow also uses the following systems for operation:
-  *   
+  <!--*   -->
 
 * Configuration: <a href='http://heremenow.herokuapp.com'>HereMeNow</a> uses Rack-based servers to start the application.
 
@@ -19,3 +19,7 @@
 
 * App planning done via <a href='https://trello.com/b/wUZqeg7T/heremenow-app'>Trello</a>.
 
+![Alt text](/../screenshots/screenshots/hmn.png?raw=true "HereMeNow Home Page")
+![Alt text](/../screenshots/screenshots/hmn_search.png?raw=true "HereMeNow Search Page")
+![Alt text](/../screenshots/screenshots/hmn_results.png?raw=true "HereMeNow Results Page")
+![Alt text](/../screenshots/screenshots/hmn_spotify.png?raw=true "HereMeNow Spotify Track Selection")
