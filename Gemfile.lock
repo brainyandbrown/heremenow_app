@@ -68,7 +68,7 @@ GEM
     diff-lcs (1.2.5)
     erubis (2.7.0)
     execjs (2.3.0)
-    geocoder (1.2.7)
+    geocoder (1.6.1)
     globalid (0.3.3)
       activesupport (>= 4.1.0)
     hike (1.2.3)
